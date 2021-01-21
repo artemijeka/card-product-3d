@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Карточка товара 3D | Product card 3D | FrontEnd Effects</title>
+ <link rel="stylesheet" href="./style.min.css">
+</head>
+<body>
+ 
+ <main>
+
+
+
+   <section class="card-product-3d__container">
+
+    <figure class="card-product-3d">
+     <figcaption>
+      <h2 class="card-product-3d__title">Название Товара</h2>
+      <h3 class="card-product-3d__brand">NIKE</h3>
+      <h4 class="card-product-3d__category">SHOE</h4>
+      <button class="card-product-3d__btn _1">Купить</button>
+      <span class="card-product-3d__decor-circle _1"></span>
+     </figcaption>
+     <img src="./img/shoe.png" alt="" class="card-product-3d__product-img _1">
+    </figure>
+    
+    <figure class="card-product-3d">
+     <figcaption>
+      <h2 class="card-product-3d__title">Название Товара</h2>
+      <h3 class="card-product-3d__brand">NIKE</h3>
+      <h4 class="card-product-3d__category">SHOE</h4>
+      <button class="card-product-3d__btn _2">Купить</button>
+      <span class="card-product-3d__decor-circle _2"></span>
+     </figcaption>
+     <img src="./img/shoe.png" alt="" class="card-product-3d__product-img _2">
+    </figure>
+    
+    <figure class="card-product-3d">
+     <figcaption>
+      <h2 class="card-product-3d__title">Название Товара</h2>
+      <h3 class="card-product-3d__brand">NIKE</h3>
+      <h4 class="card-product-3d__category">SHOE</h4>
+      <button class="card-product-3d__btn _3">Купить</button>
+      <span class="card-product-3d__decor-circle _3"></span>
+     </figcaption>
+     <img src="./img/shoe.png" alt="" class="card-product-3d__product-img _3">
+    </figure>
+
+   </section>
+
+
+
+ </main>
+
+ <script src="./vanilla-tilt.js"></script>
+ <script>
+  	VanillaTilt.init(document.querySelectorAll(".card-product-3d"), {
+    max: 25,
+    speed: 400
+   });
+ </script>
+</body>
+</html>
